@@ -35,6 +35,12 @@ export default [
         icon: 'cil-chart-pie',
         to: '/misc/addCurrentAffairs',
       },
+      {
+        _name: 'CSidebarNavItem',
+        name: 'Send Job Notification',
+        icon: 'cil-chart-pie',
+        to: '/addjobnotification',
+      },
     ]
   }
 ]

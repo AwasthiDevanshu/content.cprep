@@ -12,6 +12,7 @@ const TestList = () => import('@/views/test/TestList')
 const PublicUrl = () => import('@/views/misc/PublicUrl')
 const AddCurrentAffairs = () => import('@/views/misc/AddCurrentAffairs')
 const CurrentAffairList = () => import('@/views/currentAffair/CurrentAffairList')
+const AddJobNotification = () => import('@/views/jobnotification/AddJobNotification')
 
 // Views - Pages
 const Page404 = () => import('@/views/pages/Page404')
@@ -68,6 +69,10 @@ function configRoutes () {
           path: '/curentAffairList',
           name: 'curentAffairList',
           component: CurrentAffairList
+        },{
+          path: '/addjobnotification',
+          name: 'AddJobNotification',
+          component: AddJobNotification
         },
       ]
     },
